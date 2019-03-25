@@ -1,0 +1,18 @@
+Package: TPP2Drep
+Title: FDR-controlled analysis of 2D-TPP experiments with replicates
+Version: 0.99.0
+Authors@R: person("Nils", "Kurzawa", email = "nils.kurzawa@embl.de",
+                  role = c("aut", "cre"))
+Maintainer: Nils Kurzawa <nils.kurzawa@embl.de>
+Description: FDR-controlled analysis of 2D-TPP experiments by
+  functional analysis of dose-response curves across temperatures
+  with replicates.
+License: LGPL-3
+Encoding: UTF-8
+VignetteBuilder: knitr
+LazyData: true
+biocViews: Proteomics, DataImport, Software
+Depends: R (>= 3.5.0), stats, utils, dplyr, methods
+Imports: ggplot2, tidyr, foreach, doParallel, openxlsx, stringr, 
+  RCurl, parallel
+Suggests: knitr, testthat
